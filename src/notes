@@ -1,0 +1,41 @@
+// flex none will not adujt size of div instead add scroll bar
+//flex grow -0 dont allow to grow div
+// flex shrink-0 dont allow div to shrink
+//order-1 order-2 order-3 to set ordeer on flex box
+// flex flex-wrap col-span-2 to span to call to desired col gird-rows-5 to define the rows in grid // row-span-2 //
+grid-flow-col they are placed along column
+//justify-item-start/end/center to alling items //streach to streach across the span
+
+
+// justify-self-center//streach//e\ add to coluimn to add justify to specific column
+/*<div className='bg-yellow-500 w-auto grid grid-rows-3  grid-flow-col gap-4  '>
+    <div className='h-20   bg-red-500'>1</div>
+    <div className='h-20   bg-blue-500'>2</div>
+    <div className='h-20   bg-green-500'>3</div>
+
+    <div className='h-20  bg-red-500'>4</div>
+    <div className='h-20   bg-blue-500'>5</div>
+    <div className='h-20   bg-green-500'>6</div>
+
+    <div className='h-20    bg-red-500'>7</div>
+    <div className='h-20   bg-blue-500'>8</div>
+    <div className='h-20   bg-green-500'>9</div>
+
+    <div className='h-20  bg-red-500'>10</div>
+    <div className='h-20  bg-blue-500'>11</div>
+    <div className='h-20  bg-green-500'>12</div>
+</div>
+@layer base to costimize ur css on coomponents a{@apply bg-black=500} base matlb jo base hai like a p inut pe direct css
+ke lia
+components can be created in index.css and call them by calling the classname particukar component me class name se call
+karke css lahaya ja sakata hai
+@layer utilities .text-green-500{color:blue} isko add karn pe agar color blue chyea to
+utilities
+<div className='   px-10 bg-blue-500'>
+
+    <h1 className='text-2xl italic font-bold text-blue-900 text-opacity-100 2xl:text-black '>hello world</h1>
+    <button className='bg-green-500 text-white p-2 rounded-lg border-8 shadow-xl hover:bg-black  border-red-900'>Click
+        me</button>
+    <input type="text" className='bg-gray-200 focus:bg-green-500 ' placeholder='Add name' name="" id="" />
+</div>
+*/
